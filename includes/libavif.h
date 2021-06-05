@@ -1,5 +1,5 @@
 #define FFI_SCOPE "AVIF"
-#define FFI_LIB "libavif.so.10"
+#define FFI_LIB "libavif.so.11"
 
 typedef int avifBool;
 #define AVIF_TRUE 1
