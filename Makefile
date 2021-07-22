@@ -28,8 +28,8 @@ exec:
 images:
 	curl -fSL --create-dirs https://raw.githubusercontent.com/link-u/avif-sample-images/master/kimono.avif -o images/kimono.avif
 	curl -fSL --create-dirs https://raw.githubusercontent.com/link-u/avif-sample-images/master/star-12bpc.avifs -o images/star-12bpc.avifs
-	curl -fSL https://github.com/AOMediaCodec/libavif/raw/master/tests/data/io/extentsalpha.avif -o images/extentsalpha.avif
-	curl -fSL https://github.com/AOMediaCodec/libavif/raw/master/tests/data/io/twoextents.avif -o images/twoextents.avif
+	curl -fSL https://github.com/AOMediaCodec/libavif/raw/v0.9.0/tests/data/io/extentsalpha.avif -o images/extentsalpha.avif
+	curl -fSL https://github.com/AOMediaCodec/libavif/raw/v0.9.0/tests/data/io/twoextents.avif -o images/twoextents.avif
 
 check:
 	docker exec ${AVIF} php8 testit.php
